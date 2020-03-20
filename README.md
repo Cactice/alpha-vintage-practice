@@ -1,2 +1,2 @@
 
-I'm playing around with stock data visualizing it and what not
+I'm playing around with stock data. Visualizing it and what not
