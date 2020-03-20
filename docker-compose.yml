@@ -2,6 +2,8 @@ version: '3'
 
 services:
   jupyterlab:
+    env_file:
+      - .env
     build: .
     user: root
     environment:
@@ -10,6 +12,7 @@ services:
       GRANT_SUDO: "yes"
     volumes:
        - "./work:/home/jovyan/work"
+       - "./Project.toml:/home/jovyan/Project.toml"
     privileged: true
     ports:
       - "8888:8888"
