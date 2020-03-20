@@ -1,4 +1,4 @@
-
+# alpha-vintage-practice
 I'm playing around with stock data. Visualizing it and what not.
 1. `mv .env.example .env`
 1. Add api key with `vim .env` 
